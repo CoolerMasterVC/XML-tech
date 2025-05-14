@@ -1,0 +1,49 @@
+body{
+    background-color: #2b5b84;
+}
+
+.python-logo {
+    height: 40px;
+    width: auto;
+}
+
+.python-btn {
+    border-radius: 4px;
+    font-weight: 500;
+    padding: 6px 12px;
+    transition: all 0.2s;
+    border: 2px solid transparent;
+}
+
+.python-btn-primary {
+    background-color: #c2ca33;
+    color: white;
+    border-color: #2c5d87;
+}
+
+.python-btn-primary:hover {
+    background-color: #ebd22f;
+    border-color: #1e415e;
+}
+
+.python-btn-secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    border-color: #d0d0d0;
+}
+
+.python-btn-secondary:hover {
+    background-color: #e0e0e0;
+    border-color: #b0b0b0;
+}
+
+.python-search {
+    border-radius: 4px;
+    border: 2px solid #d0d0d0;
+    padding: 6px 12px;
+}
+
+.python-search:focus {
+    border-color: #3776ab;
+    box-shadow: 0 0 0 2px rgba(55, 118, 171, 0.2);
+}
