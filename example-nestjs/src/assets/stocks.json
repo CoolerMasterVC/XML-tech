@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+        "title": "Python Logo",
+        "text": "Official Python programming language logo"
+    },
+    {
+        "id": 2,
+        "src": "https://i.pinimg.com/736x/67/01/16/670116c84a423ad37e6662a00357a898.jpg",
+        "title": "Django Framework",
+        "text": "Django web framework for rapid Python development"
+    },
+    {
+        "id": 3,
+        "src": "https://avatars.mds.yandex.net/i?id=1f25317738d4d51f98eef0119ba4a6cd-5354397-images-thumbs&n=13",
+        "title": "Data Science",
+        "text": "Python leads in data analysis and machine learning"
+    },
+    {
+        "id": 4,
+        "src": "https://www.python.org/static/community_logos/python-powered-w-100x40.png",
+        "title": "Python Powered",
+        "text": "'Powered by Python' web applications logo"
+    },
+    {
+        "id": 5,
+        "src": "https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png",
+        "title": "Scikit-learn",
+        "text": "Machine learning library for Python"
+    },
+    {
+        "id": 6,
+        "src": "https://numfocus.org/wp-content/uploads/2016/07/pandas-logo-300.png",
+        "title": "Pandas",
+        "text": "Data analysis and manipulation library"
+    }
+]
