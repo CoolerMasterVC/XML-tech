@@ -1,5 +1,5 @@
 (function(){const c=document.createElement("link").relList;if(c&&c.supports&&c.supports("modulepreload"))return;for(const g of document.querySelectorAll('link[rel="modulepreload"]'))m(g);new MutationObserver(g=>{for(const O of g)if(O.type==="childList")for(const se of O.addedNodes)se.tagName==="LINK"&&se.rel==="modulepreload"&&m(se)}).observe(document,{childList:!0,subtree:!0});function u(g){const O={};return g.integrity&&(O.integrity=g.integrity),g.referrerPolicy&&(O.referrerPolicy=g.referrerPolicy),g.crossOrigin==="use-credentials"?O.credentials="include":g.crossOrigin==="anonymous"?O.credentials="omit":O.credentials="same-origin",O}function m(g){if(g.ep)return;g.ep=!0;const O=u(g);fetch(g.href,O)}})();class $o{constructor(c){this.parent=c}getHTML(c){return`
-                <div class="card" style="width: 300px; height: 450px">
+                <div class="card" style="width: 300px; height: 500px">
                     <img class="card-img-top" src="${c.src}" alt="картинка">
                     <div class="card-body">
                         <h5 class="card-title">${c.title}</h5>

@@ -6,7 +6,7 @@ export class ProductCardComponent {
     getHTML(data) {
         return (
             `
-                <div class="card" style="width: 300px; height: 450px">
+                <div class="card" style="width: 300px; height: 500px">
                     <img class="card-img-top" src="${data.src}" alt="картинка">
                     <div class="card-body">
                         <h5 class="card-title">${data.title}</h5>
