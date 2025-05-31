@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { StocksModule } from './stocks/stocks.module';
+import { PyFuncsModule } from './stocks/pyFunc.module';
 
 @Module({
-  imports: [StocksModule],
+  imports: [PyFuncsModule],
   controllers: [AppController],
   providers: [AppService],
 })
