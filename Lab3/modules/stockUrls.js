@@ -4,23 +4,23 @@ class StockUrls {
     }
 
     getStocks() {
-        return `${this.baseUrl}/cards`;
+        return `${this.baseUrl}/pyFunc`;
     }
 
     getStockById(id) {
-        return `${this.baseUrl}/cards/${id}`;
+        return `${this.baseUrl}/pyFunc/${id}`;
     }
 
     createStock() {
-        return `${this.baseUrl}/cards`;
+        return `${this.baseUrl}/pyFunc`;
     }
 
     removeStockById(id) {
-        return `${this.baseUrl}/cards/${id}`;
+        return `${this.baseUrl}/pyFunc/${id}`;
     }
 
     updateStockById(id) {
-        return `${this.baseUrl}/cards/${id}`;
+        return `${this.baseUrl}/pyFunc/${id}`;
     }
 }
 
