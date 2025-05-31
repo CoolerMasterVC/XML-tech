@@ -46,7 +46,7 @@ export class AddEditPage {
             const formData = {
                 title: document.getElementById('title').value,
                 text: document.getElementById('text').value,
-                img: document.getElementById('img').value
+                src: document.getElementById('img').value
             };
 
             if (this.isEditMode) {
