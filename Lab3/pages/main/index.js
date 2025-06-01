@@ -8,7 +8,7 @@ import {
     isPalindrome1 
 } from "../../components/utils/utils.js";
 import {ajax} from "../../modules/ajax.js";
-import {stockUrls} from "../../modules/stockUrls.js";
+import {pyFuncUrls} from "../../modules/pyFuncUrls.js";
 import { AddCardButtonComponent } from "../../components/add-card-button/index.js";
 import { AddEditPage } from "../add-edit-card/index.js";
 
@@ -52,7 +52,7 @@ export class MainPage {
     }
 
     getData() {
-    ajax.get(stockUrls.getStocks(), (data) => {
+    ajax.get(pyFuncUrls.getPyFuncs(), (data) => {
             this.data = data; // Сохраняем данные в this.data
             this.renderData(this.data); // Обновляем отображение после получения данных
     });
@@ -82,7 +82,7 @@ export class MainPage {
         const cardId = parseInt(e.target.dataset.id);
         
         if (confirm('Вы уверены, что хотите удалить эту карточку?')) {
-            ajax.delete(stockUrls.removeStockById(cardId), () => {
+            ajax.delete(pyFuncUrls.removePyFuncById(cardId), () => {
                 this.data = this.data.filter(item => item.id !== cardId);
                 this.renderData(this.data);
             });

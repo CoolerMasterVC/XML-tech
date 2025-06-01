@@ -1,6 +1,6 @@
 // add-edit-page/index.js
 import { ajax } from "../../modules/ajax.js";
-import { stockUrls } from "../../modules/stockUrls.js";
+import { pyFuncUrls } from "../../modules/pyFuncUrls.js";
 import { MainPage } from "../main/index.js";
 
 export class AddEditPage {
@@ -58,14 +58,14 @@ export class AddEditPage {
     }
 
     createItem(data) {
-        ajax.post(stockUrls.createStock(), data, (response) => {
+        ajax.post(pyFuncUrls.createPyFunc(), data, (response) => {
             this.returnToMain();
         });
     }
 
     updateItem(data) {
         ajax.patch(
-        stockUrls.updateStockById(this.item.id),
+        pyFuncUrls.updatePyFuncById(this.item.id),
         data,
         (response) => {
             console.log("Успешное обновление:", response);
